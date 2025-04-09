@@ -13,7 +13,8 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand">Bootstrap Styled Website</a>
+            <a href="#" class="navbar-brand"><img class="rounded" src="C:\Users\maxer\Webpages\Bootstrap Assignment\Images\bs-homepage.jpg"
+                alt="icon" height="35px" width="35px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,34 +35,41 @@
 
     </nav>
 
-    <div class="container mt-5">
+
+
+    <div class="container mt-5 pt-5">
         <h2 class="text-left text-success">Register a New User</h2>
         <form class="border p-4 shadow-sm bg-light">
             <div class="row">
-                <div class="col-6 mb-3">
+                <div class="col-12 col-md-6 mb-3">
                     <label for="firstName" class="form-label">First Name</label>
                     <input type="text" class="form-control" id="email" placeholder="First Name">
                 </div>
-                <div class="col-6 mb-3">
+                <div class="col-12 col-md-6 mb-3">
                     <label for="firstName" class="form-label">Last Name</label>
                     <input type="text" class="form-control" id="email" placeholder="Last Name">
                 </div>
             </div>
-            <div class="mb-3">
+            <div class="row">
+            <div class="col-12 col-md-6 mb-3">
                 <label for="email" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
                 <div class="invalid-feedback">
                     Email is required.
                 </div>
             </div>
-            <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
+            <div class="col-12 col-md-6 mb-3">
+                <label for="pcol-md-6assword" class="form-label">Password</label>
                 <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
                 <div class="invalid-feedback">
                     Password is required.
                 </div>
             </div>
-            <button class="btn btn-success">Submit</button>
+        </div>
+    
+            <button class="btn btn-success m-1">Submit</button>
+            <button class="btn btn-secondary m-1 d-none d-md-block">Forgot Password</button>
+
         </form>
 
 
@@ -81,17 +89,45 @@
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Jane Doe</td>
-                        <td>jane.doe@example.com</td>
+                        <td>Jonathan Doe</td>
+                        <td>jonathan.doe@example.com</td>
                         <td>Admin</td>
                         <td class="text-success">Active</td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>John Smith</td>
-                        <td>john.smith@example.com</td>
+                        <td>Jane Smith</td>
+                        <td>jane.smith@example.com</td>
                         <td>User</td>
-                        <td class="text-muted">Inactive</td>
+                        <td class="text-warning">Pending</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Jan Doh</td>
+                        <td>jan.doh@example.com</td>
+                        <td>Admin</td>
+                        <td class="text-success">Active</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Josh Doe</td>
+                        <td>josh.doe@example.com</td>
+                        <td>User</td>
+                        <td class="text-success">Active</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Justin Smith</td>
+                        <td>just.smith@example.com</td>
+                        <td>Admin</td>
+                        <td class="text-danger">Inactive</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Janice Doe</td>
+                        <td>janice.doe@example.com</td>
+                        <td>User</td>
+                        <td class="text-success">Active</td>
                     </tr>
                 </tbody>
             </table>
